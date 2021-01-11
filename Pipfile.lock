@@ -151,11 +151,11 @@
         },
         "fcm-django": {
             "hashes": [
-                "sha256:04bcdc2e4991c6485ba7709d1ea44fd207a30188a72a6f57cedf26e79dd72878",
-                "sha256:e7b65ed301822fe17ce7cea1c5dace69a27329db137c8b5a29857ec431a76261"
+                "sha256:93127171482065a3bfd84018cc24e3804036bc429dfe24635a169402b1661a1a",
+                "sha256:ebc81a4a06b84fab0baddeca7e43a9d047b1b16eaeb13e6f7fffb1426eb6c1da"
             ],
             "index": "pypi",
-            "version": "==0.3.4"
+            "version": "==0.3.7"
         },
         "idna": {
             "hashes": [
@@ -276,10 +276,10 @@
         },
         "pyfcm": {
             "hashes": [
-                "sha256:980b3d8c7627ec08557d8e1dc4b924fb5aa280821f422c025a1e2bd720628ff7",
-                "sha256:cce6c999d8ffe39a44c42329f40c73306586102c6379fc726ea217070b72b967"
+                "sha256:cc20db92a6a37950c167d2d98b1ff319fd8fe1e1fd4f5bb5ca0d1e439daff628",
+                "sha256:fc54ec0f830314a251580c1445e9e4e3eaa10d46a5685a9fe861c5a6328c77df"
             ],
-            "version": "==1.4.7"
+            "version": "==1.4.9"
         },
         "pyjwt": {
             "extras": [
