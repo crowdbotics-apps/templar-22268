@@ -21,7 +21,7 @@ export class Blank extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return { headerLeft: <SlideMenuIcon navigationProps={navigation} /> }
   }
-  state = { TextInput_3: "", TextInput_5: "", TextInput_7: "" }
+  state = { TextInput_3: "", TextInput_5: "" }
   render = () => (
     <View style={styles.View_1}>
       <TextInput
@@ -32,17 +32,9 @@ export class Blank extends React.Component {
       />
       <TextInput
         placeholder="Password"
-        editable={true}
         style={styles.TextInput_5}
         value={this.state.TextInput_5}
         onChangeText={nextValue => this.setState({ TextInput_5: nextValue })}
-      />
-      <TextInput
-        placeholder="Sample text input placeholder"
-        editable={true}
-        style={styles.TextInput_7}
-        value={this.state.TextInput_7}
-        onChangeText={nextValue => this.setState({ TextInput_7: nextValue })}
       />
     </View>
   )
@@ -75,38 +67,13 @@ const styles = StyleSheet.create({
     height: 0,
     marginTop: 40,
     marginBottom: 0,
-    paddingLeft: 5,
-    paddingRight: 5,
-    paddingTop: 5,
-    paddingBottom: 5,
     alignSelf: "center",
     fontFamily: "Merriweather-Bold",
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
     borderTopWidth: 2,
-    borderBottomWidth: 2,
-    textAlign: "left",
-    textAlignVertical: "center",
-    textDecorationLine: "none",
-    textTransform: "none",
-    lineHeight: 12,
-    letterSpacing: 0
-  },
-  TextInput_7: {
-    width: "100%",
-    marginTop: 5,
-    marginBottom: 5,
-    paddingLeft: 5,
-    paddingRight: 5,
-    paddingTop: 5,
-    paddingBottom: 5,
-    textAlign: "left",
-    textAlignVertical: "center",
-    textDecorationLine: "none",
-    textTransform: "none",
-    lineHeight: 12,
-    letterSpacing: 0
+    borderBottomWidth: 2
   }
 })
 
