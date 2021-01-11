@@ -50,10 +50,8 @@ export class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   View_1: {
-    overflow: "visible",
     alignSelf: "center",
     justifyContent: "center",
-    alignItems: "flex-start",
     alignContent: "center",
     borderColor: "#5c5c5c",
     borderStyle: "dashed",
@@ -66,24 +64,26 @@ const styles = StyleSheet.create({
   View_11: {
     width: "020%",
     height: "20%",
+    marginLeft: "0%",
+    marginRight: "0%",
     marginTop: 250,
     marginBottom: "100%",
-    paddingLeft: 10,
-    paddingRight: 10,
+    paddingLeft: "25%",
+    paddingRight: "25%",
     paddingTop: 20,
     paddingBottom: 20,
-    alignSelf: "flex-start",
-    flexDirection: "row",
+    alignSelf: "center",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     alignContent: "center"
   },
   TextInput_3: {
-    width: 200,
+    width: 120,
     height: 0,
     marginTop: 0,
     marginBottom: "5%",
-    alignSelf: "flex-start",
+    alignSelf: "center",
     fontFamily: "Merriweather-Bold",
     borderWidth: 2,
     borderLeftWidth: 2,
@@ -92,11 +92,11 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2
   },
   TextInput_5: {
-    width: 200,
+    width: 120,
     height: 0,
     marginTop: 40,
     marginBottom: "5%",
-    alignSelf: "flex-start",
+    alignSelf: "center",
     fontFamily: "Merriweather-Bold",
     borderWidth: 2,
     borderLeftWidth: 2,
